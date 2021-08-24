@@ -24,5 +24,5 @@ Most of these subflows have external dependencies
 | [AI] Azure Custom Vision  | 0.0.1           | Make prediction on image with Tensorflow.js model exported from Microsoft Custom Vision | <a href="subflow-ai-azure-custom-vision.json">json</a> |
 
 ![alt text](
-https://github.com/juhaautioniemi/tequ-api-client/blob/master/subflows.JPG "subflows")
+https://github.com/juhaautioniemi/tequ-api-client/blob/master/images/subflows.JPG "subflows")
 
