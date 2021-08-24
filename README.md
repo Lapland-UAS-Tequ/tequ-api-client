@@ -8,5 +8,5 @@ Jetson Nano/NX: https://github.com/juhaautioniemi/jetson-nodered-tensorflow
 
 
 ![alt text](
-https://github.com/juhaautioniemi/tequ-api-client/master/subflows.JPG "subflows")
+https://github.com/juhaautioniemi/tequ-api-client/blob/master/subflows.JPG "subflows")
 
