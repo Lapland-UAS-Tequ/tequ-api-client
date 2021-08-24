@@ -10,9 +10,6 @@ Most of these subflows have external dependencies
 
 ### Available subflows
 
-![alt text](
-https://github.com/juhaautioniemi/tequ-api-client/blob/master/subflows.JPG "subflows")
-
 | Subflow                   | Version         | Desc |
 | --------------------------|:---------------:| :-------------:| 
 | IP-stream                 | 0.0.1           | Open MPJEG-stream from IP-camera. Tested with Basler BIP2-1920. |
@@ -25,4 +22,7 @@ https://github.com/juhaautioniemi/tequ-api-client/blob/master/subflows.JPG "subf
 | [AI] Crop & TM            | 0.0.1           | Crops results from '[AI] Inference' and makes prediction on cropped images with Teachable Machine model. |
 | [AI] Crop detected object | 0.0.1           | Crops results from '[AI] Inference' |
 | [AI] Azure Custom Vision  | 0.0.1           | Make prediction on image with Tensorflow.js model exported from Microsoft Custom Vision |
+
+![alt text](
+https://github.com/juhaautioniemi/tequ-api-client/blob/master/subflows.JPG "subflows")
 
