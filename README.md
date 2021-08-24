@@ -2,7 +2,7 @@
 
 ### Before using these subflows prepare your machine for computer vision in Node-RED with Tensorflow.
 
-Windows 10: https://github.com/juhaautioniemi/win10-nodered-tensorflow/
+Windows 10: https://github.com/juhaautioniemi/win10-nodered-tensorflow
 
 Jetson Nano/NX: https://github.com/juhaautioniemi/jetson-nodered-tensorflow
 
