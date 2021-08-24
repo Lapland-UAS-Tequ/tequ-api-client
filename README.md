@@ -12,7 +12,7 @@ Most of these subflows have external dependencies
 
 | Subflow                   | Version         | Desc | JSON |
 | --------------------------|:---------------:| :-------------:| :-------------:| 
-| IP-stream                 | 0.0.1           | Open MPJEG-stream from IP-camera. Tested with Basler BIP2-1920. | <a href="subflow-ip-camera.json">json</a> |
+| IP-stream                 | 0.0.1           | Open MPJEG-stream from IP-camera. Tested with Basler BIP2-1920. | <a download="subflow-ip-camera.json">json</a> |
 | [AI] Inference            | 0.0.1	          | Make prediction on image with Tensorflow.js model trained with Cloud Annotations pipeline. | |
 | [AI] Annotate	            | 0.0.1           | Annotates prediction results from [AI] Inference subflow. | |
 | [AI] Thumbnails           | 0.0.1           | Creates thumbnails of original image and annotated image. | |
