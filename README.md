@@ -7,11 +7,11 @@ https://tequ-api.eu-de.mybluemix.net/
 
 ### Before using these subflows prepare your machine for computer vision in Node-RED with Tensorflow.
 
-Windows 10: https://github.com/juhaautioniemi/win10-nodered-tensorflow
+- Windows 10: https://github.com/juhaautioniemi/win10-nodered-tensorflow
 
-Jetson Nano/NX: https://github.com/juhaautioniemi/jetson-nodered-tensorflow
+- Jetson Nano/NX: https://github.com/juhaautioniemi/jetson-nodered-tensorflow
 
-Most of these subflows have external dependencies
+Most of these subflows have external dependencies, that will be (hopefully) installed when you import flow to Node-RED.
 
 ### Available subflows
 
