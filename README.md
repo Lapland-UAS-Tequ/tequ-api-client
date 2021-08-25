@@ -18,7 +18,7 @@ Most of these subflows have external dependencies, that will be (hopefully) inst
 | Subflow                   | Version         | Desc | JSON |
 | --------------------------|:---------------:| :-------------:| :-------------:|
 | IP-stream                 | 0.0.1           | Open MPJEG-stream from IP-camera. Tested with Basler BIP2-1920. | <a href="subflows/ip-camera.json">json</a> |
-| [AI] Inference            | 0.0.1	          | Make prediction on image with Tensorflow.js model trained with Cloud Annotations pipeline. | <a href="subflows/ai-inference.json">json</a> |
+| [AI] Inference            | 0.0.1	          | Make prediction on image with Tensorflow.js model trained with tequ-tf1-training-pipeline . | <a href="subflows/ai-inference.json">json</a> |
 | [AI] Annotate	            | 0.0.1           | Annotates prediction results from [AI] Inference subflow. | <a href="subflows/ai-annotate.json">json</a> |
 | [AI] Thumbnails           | 0.0.1           | Creates thumbnails of original image and annotated image. | <a href="subflows/ai-thumbnails.json">json</a> |
 | [API] Create datapacket   | 0.0.1           | Creates datapacket ready to send to Tequ-API. Supports Basler BIP2-1920 IP-camera at the moment. | <a href="subflows/api-create-datapacket.json">json</a> |
@@ -27,6 +27,7 @@ Most of these subflows have external dependencies, that will be (hopefully) inst
 | [AI] Crop & TM            | 0.0.1           | Crops results from '[AI] Inference' and makes prediction on cropped images with Teachable Machine model. | <a href="subflows/ai-crop-tm.json">json</a> |
 | [AI] Crop detected object | 0.0.1           | Crops results from '[AI] Inference' | <a href="subflows/ai-crop-detected-object.json">json</a> |
 | [AI] Azure Custom Vision  | 0.0.1           | Make prediction on image with Tensorflow.js model exported from Microsoft Custom Vision | <a href="subflows/ai-azure-custom-vision.json">json</a> |
+| [AI] Predict  | 0.0.1           | Make prediction on image with Tensorflow saved model trained with tequ-tf2-training-pipeline | <a href="subflows/ai-predict.json">json</a> |
 
 ### Subflows palette
 
