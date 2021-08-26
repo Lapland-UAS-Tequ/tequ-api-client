@@ -18,11 +18,11 @@ Most of these subflows have external dependencies, that will be (hopefully) inst
 | Subflow                     | Version         | Desc | JSON |
 | ----------------------------|:---------------:| :-------------:| :-------------:|
 | [CAM] MPJEG stream          | 0.0.1           | Open MPJEG-stream from IP-camera. Tested with Basler BIP2-1920. | <a href="subflows/cam-ip-camera.json">json</a> |
-| [AI] Detect-v1              | 0.0.1	          | Make prediction on image with Tensorflow.js model trained with tequ-tf1-ca-training-pipeline. | <a href="subflows/ai-detect-v1.json">json</a> |
-| [AI] Detect-v2              | 0.0.1           | Make prediction on image with Tensorflow.js model trained with tequ-tf1-ca-training-pipeline. | <a href="subflows/ai-detect-v2.json">json</a> |
-| [AI] Detect-sm              | 0.0.1           | Make prediction on image with Tensorflow saved model trained with tequ-tf2-ca-training-pipeline | <a href="subflows/ai-detect-sm.json">json</a> |
-| [AI] Detect-acv             | 0.0.1           | Make prediction on image with Tensorflow.js model trained and exported from Microsoft Azure Custom Vision | <a href="subflows/ai-detect-acv.json">json</a>  |
-| [AI] Crop & TM              | 0.0.1           | Crops results from '[AI] detect subflows' and classify cropped area(s) with Teachable Machine model. | <a href="subflows/ai-crop-tm.json">json</a> |
+| [AI] Detect-v1              | 0.0.1	          | Make prediction on image using Tensorflow.js model trained with tequ-tf1-ca-training-pipeline. | <a href="subflows/ai-detect-v1.json">json</a> |
+| [AI] Detect-v2              | 0.0.1           | Make prediction on image using Tensorflow.js model trained with tequ-tf1-ca-training-pipeline. | <a href="subflows/ai-detect-v2.json">json</a> |
+| [AI] Detect-sm              | 0.0.1           | Make prediction on image using Tensorflow SavedModel trained with tequ-tf2-ca-training-pipeline | <a href="subflows/ai-detect-sm.json">json</a> |
+| [AI] Detect-acv             | 0.0.1           | Make prediction on image using Tensorflow.js model trained and exported from Microsoft Azure Custom Vision | <a href="subflows/ai-detect-acv.json">json</a>  |
+| [AI] Crop & TM              | 0.0.1           | Crops results from '[AI] detect subflows' and classify cropped area(s) using Tensorflow.js model trained and exported from Google Teachable Machine. | <a href="subflows/ai-crop-tm.json">json</a> |
 | [IMG] Annotate	            | 0.0.1           | Annotates prediction results from [AI] Inference subflow. | <a href="subflows/img-annotate.json">json</a> |
 | [IMG] Thumbnails            | 0.0.1           | Creates thumbnails of original image and annotated image. | <a href="subflows/img-thumbnails.json">json</a> |
 | [IMG] Crop detected object(s) | 0.0.1         | Creates thumbnails of original image and annotated image. | <a href="subflows/img-crop-detected-object.json">json</a> |
