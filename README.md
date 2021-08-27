@@ -39,7 +39,7 @@ Modify file .node-red\node_modules\@microsoft\customvision-tfjs-node\lib\index.j
 
 Replace Line 28: 
 
-~~var tf = _interopRequireWildcard(require("@tensorflow/tfjs-node"));~~
+var tf = _interopRequireWildcard(require("@tensorflow/tfjs-node"));
 
 with: 
 
@@ -52,7 +52,7 @@ Modify file .node-red\node_modules\node-red-contrib-teachable-machine\teachable_
 
 Replace Line 5:
 
-~~var tf = require('@tensorflow/tfjs')~~
+var tf = require('@tensorflow/tfjs')
 
 with:
 
