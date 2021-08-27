@@ -33,7 +33,7 @@ Most of these subflows have external dependencies, that will be (hopefully) inst
 | [API] Operation            | 0.0.1            | **N/A** | <a href="subflows/api-operation.json">json</a> |
 
 
-* To enable GPU support when using [AI] Detect-acv
+*To enable GPU support when using [AI] Detect-acv
 ```
 Modify file .node-red\node_modules\@microsoft\customvision-tfjs-node\lib\index.js
 
@@ -46,7 +46,7 @@ with:
 var tf = _interopRequireWildcard(require("@tensorflow/tfjs-node-gpu"));
 ```
 
-** To enable GPU support when using [AI] Crop & TM
+**To enable GPU support when using [AI] Crop & TM
 ```
 Modify file .node-red\node_modules\node-red-contrib-teachable-machine\teachable_machine.js
 
