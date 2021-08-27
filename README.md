@@ -32,14 +32,19 @@ Most of these subflows have external dependencies, that will be (hopefully) inst
 | [API] Add video clip       | 0.0.1            | Send image to Tequ-API. Saves image to local filesystem if API is not available. | <a href="subflows/api-add-video.json">json</a> |
 | [API] Operation            | 0.0.1            | **N/A** | <a href="subflows/api-operation.json">json</a> |
 
+
 *[AI] Detect-acv
-Modify file ```.node-red\node_modules\@microsoft\customvision-tfjs-node\lib\index.js``` to enable GPU support =>
+```
+To enable GPU support =>
+
+Modify file .node-red\node_modules\@microsoft\customvision-tfjs-node\lib\index.js
+
 Replace Line 28: 
-```
+
 var tf = _interopRequireWildcard(require("@tensorflow/tfjs-node"));
-```
+
 With: 
-```
+
 var tf = _interopRequireWildcard(require("@tensorflow/tfjs-node-gpu"));
 ```
 
