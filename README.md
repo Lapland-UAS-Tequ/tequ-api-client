@@ -33,14 +33,27 @@ Most of these subflows have external dependencies, that will be (hopefully) inst
 | [API] Operation            | 0.0.1            | **N/A** | <a href="subflows/api-operation.json">json</a> |
 
 *[AI] Detect-acv
-Modify .node-red\node_modules\@microsoft\customvision-tfjs-node\lib\index.js to enable GPU support =>
-Replace Line 28: var tf = _interopRequireWildcard(require("@tensorflow/tfjs-node"));
-With: var tf = _interopRequireWildcard(require("@tensorflow/tfjs-node-gpu"));
+Modify file ```.node-red\node_modules\@microsoft\customvision-tfjs-node\lib\index.js``` to enable GPU support =>
+Replace Line 28: 
+```
+var tf = _interopRequireWildcard(require("@tensorflow/tfjs-node"));
+```
+With: 
+```
+var tf = _interopRequireWildcard(require("@tensorflow/tfjs-node-gpu"));
+```
 
 **[AI] Crop & TM
-Modify .node-red\node_modules\node-red-contrib-teachable-machine\teachable_machine.js to enable GPU support =>
-Replace Line 5: var tf = require('@tensorflow/tfjs')
-With: var tf = require('@tensorflow/tfjs-node-gpu')
+Modify file ```.node-red\node_modules\node-red-contrib-teachable-machine\teachable_machine.js``` to enable GPU support =>
+Replace Line 5:
+```
+var tf = require('@tensorflow/tfjs')
+```
+
+With: 
+```
+var tf = require('@tensorflow/tfjs-node-gpu')
+```
 
 ### Subflows palette
 
