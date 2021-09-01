@@ -9,11 +9,11 @@ https://tequ-api.eu-de.mybluemix.net/
 
 - Windows 10: https://github.com/juhaautioniemi/win10-nodered-tensorflow
 
-- Jetson Nano/NX: https://github.com/juhaautioniemi/jetson-nodered-tensorflow
+- Jetson Nano/NX: https://github.com/juhaautioniemi/tequ-jetson-nodered-tensorflow/
 
 - RPI3/4: https://github.com/juhaautioniemi/tequ-rpi-setup
 
-Most of these subflows have external dependencies, that will be (hopefully) installed when you import flow to Node-RED. 
+Most of these subflows have external dependencies, that will you need to install before you import flow to Node-RED. 
 
 ### Available subflows
 
