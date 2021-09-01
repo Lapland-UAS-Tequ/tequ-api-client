@@ -50,8 +50,7 @@ with:
 var tf = _interopRequireWildcard(require("@tensorflow/tfjs-node-gpu"));
 ```
 
-You might also need to re-install tfjs-node-gpu to make everything work.
-
+You might also need to re-install tfjs-node-gpu to make everything work and tfjs-node to make everything work.
 
 ***To enable GPU support when using [AI] Crop & TM
 ```
