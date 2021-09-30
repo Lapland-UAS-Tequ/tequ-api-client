@@ -13,6 +13,8 @@ https://tequ-api.eu-de.mybluemix.net/
 
 - RPI3/4: https://github.com/juhaautioniemi/tequ-rpi-setup
 
+- NVIDIA Triton https://github.com/juhaautioniemi/tequ-setup-triton-inference-server
+
 Most of these subflows have external dependencies, that will you need to install before you import flow to Node-RED.
 
 ### Available subflows
@@ -21,7 +23,7 @@ Most of these subflows have external dependencies, that will you need to install
 | ----------------------------|:---------------:| :-------------:| :-------------:|
 | [CAM] MPJEG stream          | 0.0.1           | Open MPJEG-stream from IP-camera. Tested with Basler BIP2-1920. | <a href="subflows/cam-ip-camera.json">json</a> |
 | [AI] Detect-sm              | 0.0.1           | Make prediction on image using Tensorflow SavedModel trained with tequ-tf2-ca-training-pipeline | <a href="subflows/ai-detect-sm.json">json</a> |
-| [AI] Detect-sm              | 0.0.1           | Make prediction on image using Tensorflow SavedModel hosted in NVIDIA Triton Inference Server | <a href="subflows/ai-detect-triton.json">json</a> |
+| [AI] Detect-Triton        | 0.0.1           | Make prediction on image using Tensorflow SavedModel hosted in NVIDIA Triton Inference Server | <a href="subflows/ai-detect-triton.json">json</a> |
 | [AI] Detect-v1*             | 0.0.1	          | Make prediction on image using Tensorflow.js model trained with tequ-tf1-ca-training-pipeline. | <a href="subflows/ai-detect-v1.json">json</a> |
 | [AI] Detect-v2*             | 0.0.1           | Make prediction on image using Tensorflow.js model trained with tequ-tf1-ca-training-pipeline. | <a href="subflows/ai-detect-v2.json">json</a> |
 | [AI] Detect-acv**            | 0.0.1          | Make prediction on image using Tensorflow.js model trained and exported from Microsoft Azure Custom Vision | <a href="subflows/ai-detect-acv.json">json</a>  |
@@ -80,3 +82,4 @@ https://github.com/juhaautioniemi/tequ-api-client/blob/master/images/subflows.JP
 | crop-ca                   | 0.0.1           | Process and crop Cloud Annotations project files. Sort images to folders named by annotation label. | <a href="flows/crop-ca.json">json</a> |
 | example-ai-detect-v2      | 0.0.1           | Use [AI] Detect-v2 and [IMG] Annotate | <a href="flows/example-ai-detect-v2.json">json</a> |
 | example-ai-detect-sm      | 0.0.1           | Use [AI] Detect-sm and [IMG] Annotate | <a href="flows/example-ai-detect-sm.json">json</a> |
+| example-ai-detect-triton  | 0.0.1           | Use [AI] Detect-triton and [IMG] Annotate | <a href="flows/example-ai-detect-triton.json">json</a> |
