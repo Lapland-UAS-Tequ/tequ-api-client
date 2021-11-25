@@ -7,13 +7,13 @@ https://tequ-api.eu-de.mybluemix.net/
 
 ### Before using these subflows prepare your machine(s) for computer vision in Node-RED with Tensorflow.
 
-- Windows 10: https://github.com/juhaautioniemi/win10-nodered-tensorflow
+- Windows 10: https://github.com/Lapland-UAS-Tequ/win10-nodered-tensorflow
 
-- Jetson Nano/NX: https://github.com/juhaautioniemi/tequ-jetson-nodered-tensorflow/
+- Jetson Nano/NX: https://github.com/Lapland-UAS-Tequ/tequ-jetson-nodered-tensorflow/
 
-- RPI3/4: https://github.com/juhaautioniemi/tequ-rpi-setup
+- RPI3/4: https://github.com/Lapland-UAS-Tequ/tequ-rpi-setup
 
-- NVIDIA Triton https://github.com/juhaautioniemi/tequ-setup-triton-inference-server
+- NVIDIA Triton https://github.com/Lapland-UAS-Tequ/tequ-setup-triton-inference-server
 
 Most of these subflows have external dependencies, that will you need to install before you import flow to Node-RED.
 
@@ -73,7 +73,7 @@ You might also need to re-install tfjs-node-gpu to make everything work.
 ### Subflows palette
 
 ![alt text](
-https://github.com/juhaautioniemi/tequ-api-client/blob/master/images/subflows.JPG "Subflows")
+https://github.com/Lapland-UAS-Tequ/tequ-api-client/blob/master/images/subflows.JPG "Subflows")
 
 ### Available example flows
 
