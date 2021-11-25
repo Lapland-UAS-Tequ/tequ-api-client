@@ -1,11 +1,15 @@
 # tequ-api-client
 
-Tequ-API documentation
+## Subflows and examples
+
+This repository is collection of useful Node-RED subflows to work with Computer vision and cameras. Repository also contains example subflows to send data to Tequ API. Tequ API is created in Fish-IoT project to receive and archive images and videos and other data. Most of the examples can be used without access to Tequ API.
+
+Tequ API documentation
 
 https://tequ-api.eu-de.mybluemix.net/
 
 
-### Before using these subflows prepare your machine(s) for computer vision in Node-RED with Tensorflow.
+### Before using subflows related to Computer Vision prepare your machine(s):
 
 - Windows 10: https://github.com/Lapland-UAS-Tequ/win10-nodered-tensorflow
 
@@ -22,6 +26,8 @@ Most of these subflows have external dependencies, that will you need to install
 | Subflow                     | Version         | Desc | JSON |
 | ----------------------------|:---------------:| :-------------:| :-------------:|
 | [CAM] MPJEG stream          | 0.0.1           | Open MPJEG-stream from IP-camera. Tested with Basler BIP2-1920. | <a href="subflows/cam-ip-camera.json">json</a> |
+| [CAM] RPi HQ MJPEG          | 0.0.1           | Stream MJPEG from RPi HQ-camera (raspistill, raspivid) | <a href="subflows/cam-rpi-hq-camera.json">json</a> |
+| [CAM] RPi libcamera         | 0.0.1           | Stream MJPEG from RPi HQ-camera (libcamera) | <a href="subflows/cam-rpi-libcamera-mjpeg.json">json</a> |
 | [AI] Detect-sm              | 0.0.1           | Make prediction on image using Tensorflow SavedModel trained with tequ-tf2-ca-training-pipeline | <a href="subflows/ai-detect-sm.json">json</a> |
 | [AI] Detect-Triton        | 0.0.1           | Make prediction on image using Tensorflow SavedModel hosted in NVIDIA Triton Inference Server | <a href="subflows/ai-detect-triton.json">json</a> |
 | [AI] Detect-v1*             | 0.0.1	          | Make prediction on image using Tensorflow.js model trained with tequ-tf1-ca-training-pipeline. | <a href="subflows/ai-detect-v1.json">json</a> |
